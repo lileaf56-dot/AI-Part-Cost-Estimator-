@@ -1,0 +1,15 @@
+interface:
+  display_name: "Part Cost Estimator"
+  short_description: "Create four-part LFAF quotes with vendor comparisons."
+  icon: "🧾"
+  brand_color: '#2F75B5'
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  default_prompt: "Use $part-cost-estimator to classify my drawings into four part types and generate one LFAF quotation workbook with vendor-price comparison."
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
